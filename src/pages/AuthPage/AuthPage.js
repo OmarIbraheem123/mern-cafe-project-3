@@ -9,11 +9,16 @@ export default function AuthPage({ setUser }) {
 
   return (
     <main className={styles.AuthPage}>
-      <div>
+      <video className={styles.authVideo} autoPlay loop muted>
+    <source src="/img/authPageVid.mp4" type='video/mp4' />
+      </video>
+      <div className={styles.container}>
+      <div style={{textAlign: 'center'}}>
         <Logo />
         <h3 onClick={() => setShowLogin(!showLogin)}>{showLogin ? 'SIGN UP' : 'LOG IN'}</h3>
       </div>
       {showLogin ? <LoginForm setUser={setUser} /> : <SignUpForm setUser={setUser} />}
+      </div>
     </main>
   );
 }
