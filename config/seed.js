@@ -8,35 +8,44 @@ const Item = require('../models/item');
 
   await Category.deleteMany({});
   const categories = await Category.create([
-    {name: 'Azerbaihan', sortOrder: 10},
-    {name: 'Turkish', sortOrder: 20},
+    {name: 'Azerbaijan & Turkish Pastries', sortOrder: 10},
+    {name: 'Cake / Custom Cakes', sortOrder: 20},
+  
     
   ]);
 
   await Item.deleteMany({});
   const items = await Item.create([
-    {name: 'Hamburger', emoji: '🍔', category: categories[0], price: 5.95},
-    {name: 'Turkey Sandwich', emoji: '🥪', category: categories[0], price: 6.95},
-    {name: 'Hot Dog', emoji: '🌭', category: categories[0], price: 3.95},
-    {name: 'Crab Plate', emoji: '🦀', category: categories[1], price: 14.95},
-    {name: 'Fried Shrimp', emoji: '🍤', category: categories[1], price: 13.95},
-    {name: 'Whole Lobster', emoji: '🦞', category: categories[1], price: 25.95},
-    {name: 'Taco', emoji: '🌮', category: categories[2], price: 1.95},
-    {name: 'Burrito', emoji: '🌯', category: categories[2], price: 4.95},
-    {name: 'Pizza Slice', emoji: '🍕', category: categories[3], price: 3.95},
-    {name: 'Spaghetti', emoji: '🍝', category: categories[3], price: 7.95},
-    {name: 'Garlic Bread', emoji: '🍞', category: categories[3], price: 1.95},
-    {name: 'French Fries', emoji: '🍟', category: categories[4], price: 2.95},
-    {name: 'Green Salad', emoji: '🥗', category: categories[4], price: 3.95},
-    {name: 'Ice Cream', emoji: '🍨', category: categories[5], price: 1.95},
-    {name: 'Cup Cake', emoji: '🧁', category: categories[5], price: 0.95},
-    {name: 'Custard', emoji: '🍮', category: categories[5], price: 2.95},
-    {name: 'Strawberry Shortcake', emoji: '🍰', category: categories[5], price: 3.95},
-    {name: 'Milk', emoji: '🥛', category: categories[6], price: 0.95},
-    {name: 'Coffee', emoji: '☕', category: categories[6], price: 0.95},
-    {name: 'Mai Tai', emoji: '🍹', category: categories[6], price: 8.95},
-    {name: 'Beer', emoji: '🍺', category: categories[6], price: 3.95},
-    {name: 'Wine', emoji: '🍷', category: categories[6], price: 7.95},
+    {name: 'Traditional Azerbaijan Baklava (Filled with Walnuts)', image: '/img/azerbaijanBaklava.png', category: categories[0], price: 3.50},
+    {name: 'Shekerbura (Filled with Almonds)', image: '/img/Shekerbura.png', category: categories[0], price: 3.80},
+    {name: 'Skeker Chorek (Crumble Cookie)', image: '/img/SkekerChorek.png', category: categories[0], price: 3.00},
+    {name: 'Trubochki (Cream Horn) ', image: '/img/Tulpan.JPG', category: categories[0], price: 3.50},
+    {name: 'Banani (Filled with cottage Cheese/Nuts) ', image: '/img/Banani.png', category: categories[0], price: 3.50},
+    {name: 'Cream Puffs (Filled with Homemade Whipped Cream) ', image: '/img/CreamPuff.png', category: categories[0], price: 3.00},
+    {name: 'Kyata / Gata (Filled with Walnuts) ', image: '/img/KyataGata.png', category: categories[0], price: 3.80},
+    {name: 'Kyata / Gata (Filled with Vanilla) ', image: '/img/KyataGata.png', category: categories[0], price: 3.50},
+    {name: 'Iravan Katasi  ', image: '/img/Iravan.JPG', category: categories[0], price: 3.00},
+    {name: 'Mutaki (Walnut and Cardamon Biscuits) ', image: '/img/Mutaki.JPG', category: categories[0], price: 3.50},
+    {name: 'Chudu (Shemakha kutabs) (Crispy Puff Stuffed with Halal Beef)', image: '/img/Chudu.png', category: categories[0], price: 3.50},
+    {name: 'Qutab (Flatbread) (Stuffed with Halal Meat or Vegetable) ', image: '/img/Tulpan.JPG', category: categories[0], price: 4.00},
+    {name: 'Turkish Pogaca (Stuffed with Halal Meat, Feta Cheese, Potatoes, or Olives (per Customer Request))  ', image: '/img/TurkishPogaca.png', category: categories[0], price: 2.50},
+    {name: 'Borek (Stuffed with Halal Meat, Cheese, Potatoes, or leafy greens (per Customer Request)) ', image: '/img/Borek.png', category: categories[0], price: 2.50},
+    {name: 'Pita | Bread ', image: '/img/Pita-Bread.png', category: categories[0], price: 7.00},
+    {name: 'Simit ', image: '/img/Simit.png', category: categories[0], price: 2.50},
+    {name: 'Turkish Baklava  ', image: '/img/TurkishBaklava.JPG', category: categories[0], price: 3.00},
+    {name: 'Gogal (Salty (shor) or Sweet (shirin))  ', image: '/img/Gogal.png', category: categories[0], price: 3.50},
+    {name: 'Tulpan Ici Atli (Filled with Halal Beef)  ', image: '/img/Tulpan.JPG', category: categories[0], price: 4.00},
+
+
+    {name: 'Medovik Cake (Honey Cake)', image: '/img/MedovikCake.jpg', category: categories[1], price: 25.00},
+    {name: 'Puff Cake (Filled with Cream )', image: '/img/Puff Cake.jpg', category: categories[1], price: 2.50},
+    {name: 'Puff Cake', image: '/img/PuffCake.png', category: categories[1], price: 2.50},
+    {name: 'Roll Cake (Filled with Cream, Fruit, Nuts (per Customer Request))', image: '/img/Tulpan.JPG', category: categories[1], price: 35.00},
+    {name: 'Trilece (Milk Cake)  ', image: '/img/Tulpan.JPG', category: categories[1], price: 50.00},
+    {name: 'Key Lime Pie (Whole)  ', image: '/img/KeyLimePie.png', category: categories[1], price: 23.00},
+    {name: 'Apple Pie (Whole)  ', image: '/img/Apple Pie.jpg', category: categories[1], price: 23.00},
+    {name: 'Tvoroqlu Ve bizeli piroq (Cottage Cheese & Pea Pie)', image: '🍤', category: categories[1], price: 23.00},
+    {name: 'Qozlu Piroq (Walnut Pie) ', image: '/img/QozluPiroq.JPG', category: categories[1], price: 20.00},
   ]);
 
   console.log(items)

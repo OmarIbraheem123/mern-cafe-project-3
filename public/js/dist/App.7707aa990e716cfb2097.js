@@ -1248,7 +1248,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.EDeinQzfS2N2rVW_Z1GP {
 
 .NiZr70NWdRdesmGAxajJ {
   border-radius: 50%;
-}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,kBAAA;EACA,+BAAA;EACA,mBAAA;EACA,kBAAA;EACA,kCAAA;EACA,cAAA;AACJ;;AAGI;EACI,kBAAA;AAAR","sourcesContent":[".Logo {\r\n    height: 12vmin;\r\n    width: 12vmin;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    text-align: center;\r\n    border-radius: 50%;\r\n    background-color: var(--orange);\r\n    color: var(--tan-1);\r\n    font-size: 2.7vmin;\r\n    border: .6vmin solid var(--tan-2);\r\n    margin: 0 auto;\r\n    \r\n    }\r\n    \r\n    .img {\r\n        border-radius: 50%;\r\n    }"],"sourceRoot":""}]);
+  width: 175%;
+  height: 175%;
+  margin-top: 15%;
+}`, "",{"version":3,"sources":["webpack://./src/components/Logo/Logo.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,kBAAA;EACA,+BAAA;EACA,mBAAA;EACA,kBAAA;EACA,kCAAA;EACA,cAAA;AACJ;;AAGI;EACI,kBAAA;EACA,WAAA;EACA,YAAA;EACA,eAAA;AAAR","sourcesContent":[".Logo {\r\n    height: 12vmin;\r\n    width: 12vmin;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    text-align: center;\r\n    border-radius: 50%;\r\n    background-color: var(--orange);\r\n    color: var(--tan-1);\r\n    font-size: 2.7vmin;\r\n    border: .6vmin solid var(--tan-2);\r\n    margin: 0 auto;\r\n    \r\n    }\r\n    \r\n    .img {\r\n        border-radius: 50%;\r\n        width: 175%;\r\n        height: 175%;\r\n        margin-top: 15%;\r\n    }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Logo": `EDeinQzfS2N2rVW_Z1GP`,
@@ -1611,9 +1614,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
 }
 
 .RygkJgZmBHTETlLP3C3i h3 {
-  margin-top: 4vmin;
+  margin-top: 6vmin;
   text-align: center;
-  color: var(--text-light);
+  color: white;
   cursor: pointer;
 }
 
@@ -1630,7 +1633,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.RygkJgZmBHTETlLP3C3i {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,aAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,wBAAA;EACA,eAAA;AACJ;;AAEE;EACE,UAAA;EACA,UAAA;EACA,eAAA;EACA,MAAA;AACJ;;AAEE;EACE,UAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,kBAAA;AACJ","sourcesContent":[".AuthPage {\r\n    height: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 2vmin;\r\n    margin: 2vmin;\r\n  }\r\n  \r\n  .AuthPage h3 {\r\n    margin-top: 4vmin;\r\n    text-align: center;\r\n    color: var(--text-light);\r\n    cursor: pointer;\r\n  }\r\n\r\n  .authVideo {\r\n    z-index: 1;\r\n    width: 50%;\r\n    position: fixed;\r\n    top: 0;\r\n  }\r\n\r\n  .container {\r\n    z-index: 2;\r\n    display:flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    text-align: center;\r\n  }\r\n   "],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/pages/AuthPage/AuthPage.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;EACA,mBAAA;EACA,oBAAA;EACA,aAAA;AACJ;;AAEE;EACE,iBAAA;EACA,kBAAA;EACA,YAAA;EACA,eAAA;AACJ;;AAEE;EACE,UAAA;EACA,UAAA;EACA,eAAA;EACA,MAAA;AACJ;;AAEE;EACE,UAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,kBAAA;AACJ","sourcesContent":[".AuthPage {\r\n    height: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 2vmin;\r\n    margin: 2vmin;\r\n  }\r\n  \r\n  .AuthPage h3 {\r\n    margin-top: 6vmin;\r\n    text-align: center;\r\n    color: white;\r\n    cursor: pointer;\r\n  }\r\n\r\n  .authVideo {\r\n    z-index: 1;\r\n    width: 50%;\r\n    position: fixed;\r\n    top: 0;\r\n  }\r\n\r\n  .container {\r\n    z-index: 2;\r\n    display:flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    text-align: center;\r\n  }\r\n   "],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"AuthPage": `RygkJgZmBHTETlLP3C3i`,
