@@ -57,11 +57,14 @@ function LineItem(_ref) {
     className: _LineItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].LineItem
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex-ctr-ctr"
-  }, lineItem.item.image), /*#__PURE__*/React.createElement("div", {
+  }, lineItem.image, /*#__PURE__*/React.createElement("img", {
+    src: lineItem.item.image,
+    alt: lineItem.name
+  })), /*#__PURE__*/React.createElement("div", {
     className: "flex-ctr-ctr flex-col"
   }, /*#__PURE__*/React.createElement("span", {
     className: "align-ctr"
-  }, lineItem.item.name), /*#__PURE__*/React.createElement("span", null, lineItem.item.price.toFixed(2))), /*#__PURE__*/React.createElement("div", {
+  }, lineItem.item.name)), /*#__PURE__*/React.createElement("div", {
     className: _LineItem_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].qty,
     style: {
       justifyContent: isPaid && 'center'
@@ -1094,12 +1097,12 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `.ZeRW57PNaWpYVsw6JlaC {
   width: 100%;
   display: grid;
-  grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;
+  grid-template-columns: 3vw 30.35vw 5.75vw 5.25vw;
   padding: 1vmin 0;
   color: var(--text-light);
   background-color: var(--white);
   border-top: 0.1vmin solid var(--tan-3);
-  font-size: 1.5vw;
+  font-size: 85%;
 }
 
 .ZeRW57PNaWpYVsw6JlaC:last-child {
@@ -1110,7 +1113,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.ZeRW57PNaWpYVsw6JlaC {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.3vw;
+  font-size: 90%;
 }
 
 .ZeRW57PNaWpYVsw6JlaC .iZ6oJDRJlBAjRnxPhUy5 {
@@ -1122,7 +1125,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.ZeRW57PNaWpYVsw6JlaC {
 
 .ZeRW57PNaWpYVsw6JlaC button {
   margin: 0;
-}`, "",{"version":3,"sources":["webpack://./src/components/LineItem/LineItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,gDAAA;EACA,gBAAA;EACA,wBAAA;EACA,8BAAA;EACA,sCAAA;EACA,gBAAA;AACJ;;AAEI;EACA,yCAAA;AACJ;;AAEI;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,gBAAA;AACJ;;AAEI;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;AACJ;;AAEI;EACA,SAAA;AACJ","sourcesContent":[".LineItem {\r\n    width: 100%;\r\n    display: grid;\r\n    grid-template-columns: 3vw 15.35vw 5.75vw 5.25vw;\r\n    padding: 1vmin 0;\r\n    color: var(--text-light);\r\n    background-color: var(--white);\r\n    border-top: .1vmin solid var(--tan-3);\r\n    font-size: 1.5vw;\r\n    }\r\n    \r\n    .LineItem:last-child {\r\n    border-bottom: .1vmin solid var(--tan-3);\r\n    }\r\n    \r\n    .LineItem .qty {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    font-size: 1.3vw;\r\n    }\r\n    \r\n    .LineItem .extPrice {\r\n    display: flex;\r\n    justify-content: flex-end;\r\n    align-items: center;\r\n    font-size: 1.3vw;\r\n    }\r\n    \r\n    .LineItem button {\r\n    margin: 0;\r\n    }"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/LineItem/LineItem.module.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,aAAA;EACA,gDAAA;EACA,gBAAA;EACA,wBAAA;EACA,8BAAA;EACA,sCAAA;EACA,cAAA;AACJ;;AAEI;EACA,yCAAA;AACJ;;AAEI;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;EACA,cAAA;AACJ;;AAEI;EACA,aAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;AACJ;;AAEI;EACA,SAAA;AACJ","sourcesContent":[".LineItem {\r\n    width: 100%;\r\n    display: grid;\r\n    grid-template-columns: 3vw 30.35vw 5.75vw 5.25vw;\r\n    padding: 1vmin 0;\r\n    color: var(--text-light);\r\n    background-color: var(--white);\r\n    border-top: .1vmin solid var(--tan-3);\r\n    font-size: 85%;\r\n    }\r\n    \r\n    .LineItem:last-child {\r\n    border-bottom: .1vmin solid var(--tan-3);\r\n    }\r\n    \r\n    .LineItem .qty {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    font-size: 90%;\r\n    }\r\n    \r\n    .LineItem .extPrice {\r\n    display: flex;\r\n    justify-content: flex-end;\r\n    align-items: center;\r\n    font-size: 1.3vw;\r\n    }\r\n    \r\n    .LineItem button {\r\n    margin: 0;\r\n    }"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"LineItem": `ZeRW57PNaWpYVsw6JlaC`,
