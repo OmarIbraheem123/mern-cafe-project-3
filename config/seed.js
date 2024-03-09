@@ -38,13 +38,13 @@ const Item = require('../models/item');
 
 
     {name: 'Medovik Cake (Honey Cake)', image: '/img/MedovikCake.jpg', category: categories[1], price: 25.00},
-    {name: 'Puff Cake (Filled with Cream )', image: '/img/Puff Cake.jpg', category: categories[1], price: 2.50},
+    {name: 'Puff Cake (Filled with Cream )', image: '/img/PuffCake.jpg', category: categories[1], price: 2.50},
     {name: 'Puff Cake', image: '/img/PuffCake.png', category: categories[1], price: 2.50},
     {name: 'Roll Cake (Filled with Cream, Fruit, Nuts (per Customer Request))', image: '/img/Tulpan.JPG', category: categories[1], price: 35.00},
     {name: 'Trilece (Milk Cake)  ', image: '/img/Tulpan.JPG', category: categories[1], price: 50.00},
     {name: 'Key Lime Pie (Whole)  ', image: '/img/KeyLimePie.png', category: categories[1], price: 23.00},
-    {name: 'Apple Pie (Whole)  ', image: '/img/Apple Pie.jpg', category: categories[1], price: 23.00},
-    {name: 'Tvoroqlu Ve bizeli piroq (Cottage Cheese & Pea Pie)', image: '🍤', category: categories[1], price: 23.00},
+    {name: 'Apple Pie (Whole)  ', image: '/img/ApplePie.jpg', category: categories[1], price: 23.00},
+    {name: 'Tvoroqlu Ve bizeli piroq (Cottage Cheese & Pea Pie)', image: '/img/TvoroqluVeBizeliPiroq.jpg', category: categories[1], price: 23.00},
     {name: 'Qozlu Piroq (Walnut Pie) ', image: '/img/QozluPiroq.JPG', category: categories[1], price: 20.00},
   ]);
 

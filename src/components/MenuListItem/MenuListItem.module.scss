@@ -12,13 +12,14 @@
     font-size: 4vmin;
   }
   
-  .MenuListItem .emoji {
-    height: 8vw;
-    width: 8vw;
+  .MenuListItem .image {
+    height: 1%;
+    width: 1%;
     font-size: 4vw;
     background-color: var(--tan-1);
     border: .1vmin solid var(--tan-3);
-    border-radius: 1vmin;
+    border-radius: 80%;
+    margin-left: 10%;
   }
   
   .MenuListItem .buy {
@@ -33,7 +34,7 @@
   }
   
   .MenuListItem .name {
-    font-size: 2vw;
+    font-size: 50%;
     text-align: center;
     color: var(--text-light);
   }
